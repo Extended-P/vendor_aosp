@@ -157,3 +157,29 @@ include vendor/pixelstyle/config.mk
 #include vendor/themes/config.mk
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
+
+# Accents
+PRODUCT_PACKAGES += \
+    BubblegumPink \
+    Cyan \
+    Flare \
+    Purpink \
+    Quepal \
+    Stock \
+    Sunset \
+    VeryBlue
+
+# Themes
+PRODUCT_PACKAGES += \
+    DarkThemeAndroidOverlay \
+    DarkThemeSettingsOverlay \
+    DarkThemeSystemUIOverlay \
+    BlackThemeAndroidOverlay \
+    BlackThemeSettingsOverlay \
+    BlackThemeSystemUIOverlay \
+    MemeThemeAndroidOverlay \
+    MemeThemeGMSOverlay \
+    MemeThemeSettingsOverlay \
+    MemeThemeSystemUIOverlay \
+    MemeThemeWellbeingOverlay
+

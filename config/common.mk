@@ -22,7 +22,8 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.sys.disable_rescue=true \
     keyguard.no_require_sim=true \
     ro.build.selinux=1 \
-    ro.setupwizard.rotation_locked=true
+    ro.setupwizard.rotation_locked=true \
+    ro.boot.vendor.overlay.theme=com.google.android.theme.purpink;com.android.system.theme.meme;com.android.settings.theme.meme;com.google.android.gms.theme.meme;com.android.systemui.theme.meme;com.google.android.apps.wellbeing.theme.meme
 
 # Default notification/alarm sounds
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \

@@ -145,7 +145,7 @@ PRODUCT_BOOT_JARS += \
 include vendor/aosp/config/branding.mk
 
 # OTA
-include vendor/aosp/config/ota.mk
+#include vendor/aosp/config/ota.mk
 
 # GApps
 include vendor/gapps/config.mk
